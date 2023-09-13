@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculation Form</title>
+</head>
+<body>
+
+<h1>{{ Group }}</h1>
+<h2>Result: {{ result }}</h2>
+
+<form action="/" method="post">
+    <input type="text" name="Group" placeholder="Group" value="{{ Group }}" required>
+    <br>
+    <input type="number" name="Ftu" placeholder="Ftu" value="{{ Ftu }}" required>
+    <br>
+    <input type="number" name="e" placeholder="e" value="{{ e }}" required>
+    <br>
+    <input type="number" name="t" placeholder="t" value="{{ t }}" required>
+    <br>
+    <input type="number" name="d" placeholder="d" value="{{ d }}" required>
+    <br><br>
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
